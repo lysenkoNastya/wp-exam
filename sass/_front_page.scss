@@ -1,0 +1,78 @@
+$section-about: #fbf7f4;
+$btn-color: #16d428;
+$text-color: #fff;
+$bg-our-steps: #e7eff1;
+$color-text-black: #333;
+$bg-btn: #333;
+$brand-color: #fed52f;
+
+.section-header {
+  padding-bottom: 100px;
+  color: $text-color;
+  background-size: cover;
+
+  .sub-title {
+    margin-bottom: 75px;
+    font-size: 1rem;
+  }
+
+  .title-marg {
+    margin-top: 130px;
+  }
+}
+
+.btn {
+  padding: 15px 35px;
+  background: $brand-color;
+  color: $bg-btn;
+}
+
+.title{
+  margin-bottom: 40px;
+  font-size: 3rem;
+}
+
+.families-hover-block :hover {
+  background-color: $brand-color;
+}
+.title-border {
+  padding-bottom: 20px;
+  border-bottom: 2px solid $brand-color;
+}
+
+.read-more-text {
+  color: $brand-color;
+}
+
+.section-process {
+  padding: 105px 0;
+
+  &-item {
+    margin-bottom: 20px;
+  }
+}
+
+.section-about,
+.section-testimonials {
+  background-color: $section-about;
+  padding: 70px 0;
+}
+
+.section-families {
+  padding: 65px 0;
+}
+
+.info-block-name {
+  color: $brand-color;
+  text-transform: uppercase;
+}
+
+.families-list-item-info {
+  background-color: $text-color;
+}
+
+.section-build {
+  padding: 250px 0 160px;
+  background-size: cover;
+}
+

@@ -1,0 +1,16 @@
+@import "../css/reset.css";
+
+$brand-color: #ffac56;
+$header-menu-color: #4e4e4e;
+$bg: #2c2622;
+$text-color: #fff;
+
+
+.main-menu,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+a {
+  color: $text-color;
+}
+
+

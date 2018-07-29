@@ -1,0 +1,45 @@
+@import "../css/reset.css";
+
+$section-about: #fbf7f4;
+$btn-color: #16d428;
+$text-color: #fff;
+$bg-our-steps: #e7eff1;
+$color-text-black: #333;
+$bg-btn: #333;
+$brand-color: #fed52f;
+
+.container {
+  max-width: 1400px;
+}
+#wrapper-footer {
+  padding: 40px;
+  background-color: $section-about;
+}
+
+#yikes-mailchimp-container-1 {
+  display: inline-block;
+}
+
+.footer-top-section {
+  a, .menu-item {
+    color: $color-text-black;
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+}
+
+.EMAIL-label,
+a.post-edit-link {
+  display: none;
+}
+
+#yikes-mailchimp-container-1 {
+  display: block;
+}
+
+.textwidget > p,
+.textwidget,
+#yikes-easy-mc-form-1-EMAIL,
+#yikes-mailchimp-honeypot {
+  display: inline-block;
+}
